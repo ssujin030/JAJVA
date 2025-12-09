@@ -2,7 +2,7 @@ package animal;
 
 public class Dog extends Animal {
 	
-	String name = 0;
+	String name ;
 			
 	public void cry() {
 		
