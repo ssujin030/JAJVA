@@ -18,7 +18,13 @@ public class Main {
 		 */
 		
 		Test t = new Test();
-		t.m01();
+		
+		try {
+			t.m01();
+		}catch(ArithmeticException x){
+			System.out.println("m01 호출하다 에러난듯");
+		}
+	
 
 		
 	
